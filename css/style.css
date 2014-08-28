@@ -1,0 +1,38 @@
+font: 400 14px/1.2 sans-serif;
+	letter-spacing: 1px;
+	margin: 40px 0 0;
+	padding: 1em 1.5em;
+	text-transform: uppercase;
+	-webkit-transition: all 150ms linear;
+       -moz-transition: all 150ms linear;
+         -o-transition: all 150ms linear;
+            transition: all 150ms linear;
+}
+
+button:hover {
+	background-color: #1ad;
+	letter-spacing: 2px;
+}
+
+button:active {
+	background-color: #19c;
+}
+
+.hidden {
+	opacity: 0;
+}
+
+
+/*
+	Footer
+*/
+
+footer {
+	margin: 30px 0 60px;
+	text-align: center;
+}
+
+footer p {
+	color: #aaa;
+	font: 14px/1.2 sans-serif;
+}
